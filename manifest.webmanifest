@@ -1,0 +1,19 @@
+{
+  "name": "Michael QR — 私人 QR Code 產生器",
+  "short_name": "Michael QR",
+  "description": "私人、簡單、離線 QR Code 產生器",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#111827",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
