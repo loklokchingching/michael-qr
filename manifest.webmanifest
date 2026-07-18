@@ -1,19 +1,19 @@
 {
+  "id": "/michael-qr/",
   "name": "Michael QR — 私人 QR Code 產生器",
   "short_name": "Michael QR",
   "description": "私人、簡單、離線 QR Code 產生器",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "/michael-qr/",
+  "scope": "/michael-qr/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
   "background_color": "#f3f4f6",
   "theme_color": "#111827",
   "lang": "zh-Hant",
+  "categories": ["utilities", "productivity"],
   "icons": [
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    {"src":"icon-192.svg","sizes":"192x192","type":"image/svg+xml","purpose":"any maskable"},
+    {"src":"icon-512.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}
   ]
 }
