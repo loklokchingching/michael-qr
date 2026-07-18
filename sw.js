@@ -1,5 +1,11 @@
-const CACHE_NAME = "michael-qr-v1";
-const APP_FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg"];
+const CACHE_NAME = "michael-qr-v2";
+const APP_FILES = [
+  "./",
+  "./index.html",
+  "./manifest.webmanifest",
+  "./icon.svg",
+  "https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js"
+];
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES)));
